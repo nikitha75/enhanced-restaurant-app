@@ -1,0 +1,1389 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>ccbp test reporter</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results">{
+  &quot;numFailedTestSuites&quot;: 3,
+  &quot;numFailedTests&quot;: 40,
+  &quot;numPassedTestSuites&quot;: 0,
+  &quot;numPassedTests&quot;: 23,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 3,
+  &quot;numTotalTests&quot;: 63,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1734702859338,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 20,
+      &quot;numPassingTests&quot;: 14,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1734702886161,
+        &quot;runtime&quot;: 25468,
+        &quot;slow&quot;: true,
+        &quot;start&quot;: 1734702860693
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0
+      },
+      &quot;testFilePath&quot;: &quot;/tmp/RJSCPD56GK/src/__tests__/Home.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 290,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the Page is opened, an HTTP GET request should be made to the given dishesApiUrl to get the list of dishes&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the Page is opened, an HTTP GET request should be made to the given dishesApiUrl to get the list of dishes&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_12&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 206,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:994:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful, then the page should consist of an HTML heading element with text content as \&quot;UNI Resto Cafe\&quot; the value of the key \&quot;restaurant_name\&quot; received from the response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful, then the page should consist of an HTML heading element with text content as \&quot;UNI Resto Cafe\&quot; the value of the key \&quot;restaurant_name\&quot; received from the response&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_13&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 72,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1005:25)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful, then the page should consist of an HTML paragraph element with text content as \&quot;My Orders\&quot; in the Header&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful, then the page should consist of an HTML paragraph element with text content as \&quot;My Orders\&quot; in the Header&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_14&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 226,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1017:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful, then the page should consist of HTML button elements to display the list of menu categories with text content of each button corresponding to the value of the key \&quot;menu_category\&quot; received from the response within the \&quot;table_menu_list\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful, then the page should consist of HTML button elements to display the list of menu categories with text content of each button corresponding to the value of the key \&quot;menu_category\&quot; received from the response within the \&quot;table_menu_list\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_15&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 187,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1040:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML heading element with text content as the value of the key \&quot;dish_name\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML heading element with text content as the value of the key \&quot;dish_name\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_16&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 201,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1065:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_currency\&quot; and \&quot;dish_price\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_currency\&quot; and \&quot;dish_price\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_17&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 306,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1088:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_description\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_description\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_18&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 291,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1111:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_calories\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_calories\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_19&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 199,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1134:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML image element with src as the value of the key \&quot;dish_image\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML image element with src as the value of the key \&quot;dish_image\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_20&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 88,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;matcherResult&quot;: {
+                &quot;pass&quot;: false
+              }
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toBeGreaterThanOrEqual(expected)\n\nExpected: &gt;= 4\nReceived:    1\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1156:33)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful, then the page should initially consist of an HTML paragraph elements to display the count of each dish quantity with text content as \&quot;0\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful, then the page should initially consist of an HTML paragraph elements to display the count of each dish quantity with text content as \&quot;0\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_21&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;\nExpected: &gt;= 4\nReceived:    1&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 814,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful, then the page should consist of an HTML button element with text content as \&quot;-\&quot; which refers decrement&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful, then the page should consist of an HTML button element with text content as \&quot;-\&quot; which refers decrement&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_22&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 417,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful, then the page should consist of an HTML button element with text content as \&quot;+\&quot; which refers increment&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful, then the page should consist of an HTML button element with text content as \&quot;+\&quot; which refers increment&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_23&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 105,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1189:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML heading element with text content as the value of the key \&quot;dish_name\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML heading element with text content as the value of the key \&quot;dish_name\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_24&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 119,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1234:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_currency\&quot; and \&quot;dish_price\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_currency\&quot; and \&quot;dish_price\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_25&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 86,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1278:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_description\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_description\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_26&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 104,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1322:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_calories\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_calories\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_27&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 109,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1366:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML image element with src as the value of the key \&quot;dish_image\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML image element with src as the value of the key \&quot;dish_image\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_28&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 516,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Hen House\&quot;, then the page should initially consist of an HTML paragraph elements to display the count of each dish quantity with text content as \&quot;0\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Hen House\&quot;, then the page should initially consist of an HTML paragraph elements to display the count of each dish quantity with text content as \&quot;0\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_29&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 971,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Hen House\&quot;, then the page should consist of an HTML button element with text content as \&quot;-\&quot; which refers decrement&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Hen House\&quot;, then the page should consist of an HTML button element with text content as \&quot;-\&quot; which refers decrement&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_30&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 513,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Hen House\&quot;, then the page should consist of an HTML button element with text content as \&quot;+\&quot; which refers increment&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Hen House\&quot;, then the page should consist of an HTML button element with text content as \&quot;+\&quot; which refers increment&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_31&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 97,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1462:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Fresh From The Sea\&quot;, then the page should consist of an HTML heading element with text content as the value of the key \&quot;dish_name\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Fresh From The Sea\&quot;, then the page should consist of an HTML heading element with text content as the value of the key \&quot;dish_name\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_32&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 121,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1507:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Biryani\&quot;, then the page should consist of an HTML heading element with text content as the value of the key \&quot;dish_name\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Biryani\&quot;, then the page should consist of an HTML heading element with text content as the value of the key \&quot;dish_name\&quot; received from the response within \&quot;category_dishes\&quot; list&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_33&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 464,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Fast Food\&quot;, then the page should consist of an HTML paragraph element with text content as \&quot;Customizations available\&quot; as the key \&quot;addonCat\&quot; has the values received from the response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Fast Food\&quot;, then the page should consist of an HTML paragraph element with text content as \&quot;Customizations available\&quot; as the key \&quot;addonCat\&quot; has the values received from the response&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_34&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 306,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).not.toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1571:24)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Biryani\&quot;, then the page should not consist of an HTML paragraph element with text content as \&quot;Customizations available\&quot; as the key \&quot;addonCat\&quot; has no values received from the response &quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Biryani\&quot;, then the page should not consist of an HTML paragraph element with text content as \&quot;Customizations available\&quot; as the key \&quot;addonCat\&quot; has no values received from the response &quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_35&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).not.toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 332,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Biryani\&quot;, then the page should consist of an HTML paragraph element with text content as \&quot;Not available\&quot; as one of the keys \&quot;dish_Availability\&quot; has the value \&quot;false\&quot; received from the response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Biryani\&quot;, then the page should consist of an HTML paragraph element with text content as \&quot;Not available\&quot; as one of the keys \&quot;dish_Availability\&quot; has the value \&quot;false\&quot; received from the response&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_36&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 665,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).not.toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1601:24)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Fast Food\&quot;, then the page should not consist of an HTML paragraph element with text content as \&quot;Not available\&quot; as all \&quot;dish_Availability\&quot; keys has the value \&quot;true\&quot; received from the response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Fast Food\&quot;, then the page should not consist of an HTML paragraph element with text content as \&quot;Not available\&quot; as all \&quot;dish_Availability\&quot; keys has the value \&quot;true\&quot; received from the response&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_37&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).not.toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 908,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Fresh From The Sea\&quot;, then the page should not consist of an HTML button elements with text content as \&quot;-\&quot; and \&quot;+\&quot; along with its quantity as all \&quot;dish_Availability\&quot; keys has the value \&quot;false\&quot; received from the response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Fresh From The Sea\&quot;, then the page should not consist of an HTML button elements with text content as \&quot;-\&quot; and \&quot;+\&quot; along with its quantity as all \&quot;dish_Availability\&quot; keys has the value \&quot;false\&quot; received from the response&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_38&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 1028,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, and when the \&quot;+\&quot; button in the Page is clicked and the particular \&quot;dish quantity\&quot; count is greater than zero, then the button with text content \&quot;ADD TO CART\&quot; should be appear &quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, and when the \&quot;+\&quot; button in the Page is clicked and the particular \&quot;dish quantity\&quot; count is greater than zero, then the button with text content \&quot;ADD TO CART\&quot; should be appear &quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_39&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 82,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;matcherResult&quot;: {
+                &quot;actual&quot;: 1,
+                &quot;expected&quot;: 4,
+                &quot;name&quot;: &quot;toBe&quot;,
+                &quot;pass&quot;: false
+              }
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 4\nReceived: 1\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1656:29)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, and when the \&quot;-\&quot; button in the Page is clicked initially, then the \&quot;dish quantity\&quot; count or \&quot;cart count\&quot; should not be decremented&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, and when the \&quot;-\&quot; button in the Page is clicked initially, then the \&quot;dish quantity\&quot; count or \&quot;cart count\&quot; should not be decremented&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_40&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;\nExpected: 4\nReceived: 1&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 3573,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, and when the \&quot;+\&quot; button in the Page is clicked, then the particular \&quot;dish quantity\&quot; count should be incremented by one&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, and when the \&quot;+\&quot; button in the Page is clicked, then the particular \&quot;dish quantity\&quot; count should be incremented by one&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_41&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 545,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, and when the button with text content \&quot;ADD TO CART\&quot; is clicked , then the \&quot;cart count\&quot; should not be incremented by one &quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, and when the button with text content \&quot;ADD TO CART\&quot; is clicked , then the \&quot;cart count\&quot; should not be incremented by one &quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_42&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 3009,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, and when you click the \&quot;+\&quot; button on the page first, and then click the \&quot;-\&quot; button, it should reduce the quantity of that specific dish by one &quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, and when you click the \&quot;+\&quot; button on the page first, and then click the \&quot;-\&quot; button, it should reduce the quantity of that specific dish by one &quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_43&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 53,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Home.js:1762:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful, the tabs must not be hardcoded, its length should change as per API&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful, the tabs must not be hardcoded, its length should change as per API&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_44&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route tests&quot;
+          ],
+          &quot;duration&quot;: 15,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Home Route testsWhen the HTTP GET request is successful, then the page should not consist of an HTML button element with text content as \&quot;ADD TO CART\&quot; &quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request is successful, then the page should not consist of an HTML button element with text content as \&quot;ADD TO CART\&quot; &quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_45&quot;,
+          &quot;errorMessages&quot;: []
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_13:::When the HTTP GET request is successful, then the page should consist of an HTML heading element with text content as \&quot;UNI Resto Cafe\&quot; the value of the key \&quot;restaurant_name\&quot; received from the response:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      992 |         exact: false,\n      993 |       }),\n    &gt; 994 |     ).toBeInTheDocument()\n          |       ^\n      995 |     restoreGetCookieFns()\n      996 |   })\n      997 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:994:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_14:::When the HTTP GET request is successful, then the page should consist of an HTML paragraph element with text content as \&quot;My Orders\&quot; in the Header:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1003 |       exact: false,\n      1004 |     })\n    &gt; 1005 |     expect(paragraphEl).toBeInTheDocument()\n           |                         ^\n      1006 |     restoreGetCookieFns()\n      1007 |   })\n      1008 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1005:25)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_15:::When the HTTP GET request is successful, then the page should consist of HTML button elements to display the list of menu categories with text content of each button corresponding to the value of the key \&quot;menu_category\&quot; received from the response within the \&quot;table_menu_list\&quot;:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1015 |         exact: false,\n      1016 |       }),\n    &gt; 1017 |     ).toBeInTheDocument()\n           |       ^\n      1018 |\n      1019 |     for (let index = 0; index &lt; 6; index += 1) {\n      1020 |       expect(\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1017:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_16:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML heading element with text content as the value of the key \&quot;dish_name\&quot; received from the response within \&quot;category_dishes\&quot; list:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1038 |         exact: false,\n      1039 |       }),\n    &gt; 1040 |     ).toBeInTheDocument()\n           |       ^\n      1041 |\n      1042 |     for (let index = 0; index &lt; 6; index += 1) {\n      1043 |       expect(\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1040:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_17:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_currency\&quot; and \&quot;dish_price\&quot; received from the response within \&quot;category_dishes\&quot; list:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1063 |         exact: false,\n      1064 |       }),\n    &gt; 1065 |     ).toBeInTheDocument()\n           |       ^\n      1066 |     for (let index = 0; index &lt; 6; index += 1) {\n      1067 |       const paragraphEl = screen.getByText(\n      1068 |         new RegExp(\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1065:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_18:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_description\&quot; received from the response within \&quot;category_dishes\&quot; list:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1086 |         exact: false,\n      1087 |       }),\n    &gt; 1088 |     ).toBeInTheDocument()\n           |       ^\n      1089 |     for (let index = 0; index &lt; 6; index += 1) {\n      1090 |       const paragraphEl = screen.getByText(\n      1091 |         new RegExp(\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1088:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_19:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_calories\&quot; received from the response within \&quot;category_dishes\&quot; list:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1109 |         exact: false,\n      1110 |       }),\n    &gt; 1111 |     ).toBeInTheDocument()\n           |       ^\n      1112 |     for (let index = 4; index &lt; 6; index += 1) {\n      1113 |       const paragraphEl = screen.getByText(\n      1114 |         new RegExp(\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1111:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_20:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, then the page should consist of an HTML image element with src as the value of the key \&quot;dish_image\&quot; received from the response within \&quot;category_dishes\&quot; list:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1132 |         exact: false,\n      1133 |       }),\n    &gt; 1134 |     ).toBeInTheDocument()\n           |       ^\n      1135 |     const images = await screen.findAllByRole(&#x27;img&#x27;)\n      1136 |     const srcValues = images.map(image =&gt; image.getAttribute(&#x27;src&#x27;))\n      1137 |     const dishImages = restaurantItems[0].table_menu_list[0].category_dishes\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1134:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_21:::When the HTTP GET request is successful, then the page should initially consist of an HTML paragraph elements to display the count of each dish quantity with text content as \&quot;0\&quot;:::5:::\n\n    expect(received).toBeGreaterThanOrEqual(expected)\n\n    Expected: &gt;= 4\n    Received:    1\n\n      1154 |       exact: false,\n      1155 |     })\n    &gt; 1156 |     expect(paragraphEls.length).toBeGreaterThanOrEqual(4)\n           |                                 ^\n      1157 |     restoreGetCookieFns()\n      1158 |   })\n      1159 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1156:33)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_24:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML heading element with text content as the value of the key \&quot;dish_name\&quot; received from the response within \&quot;category_dishes\&quot; list:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1187 |         exact: false,\n      1188 |       }),\n    &gt; 1189 |     ).toBeInTheDocument()\n           |       ^\n      1190 |\n      1191 |     const secondTab = await screen.findByRole(&#x27;button&#x27;, {\n      1192 |       name: /From the Barnyard/i,\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1189:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_25:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_currency\&quot; and \&quot;dish_price\&quot; received from the response within \&quot;category_dishes\&quot; list:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1232 |         exact: false,\n      1233 |       }),\n    &gt; 1234 |     ).toBeInTheDocument()\n           |       ^\n      1235 |\n      1236 |     const secondTab = await screen.findByRole(&#x27;button&#x27;, {\n      1237 |       name: /From the Barnyard/i,\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1234:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_26:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_description\&quot; received from the response within \&quot;category_dishes\&quot; list:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1276 |         exact: false,\n      1277 |       }),\n    &gt; 1278 |     ).toBeInTheDocument()\n           |       ^\n      1279 |\n      1280 |     const secondTab = await screen.findByRole(&#x27;button&#x27;, {\n      1281 |       name: /From the Barnyard/i,\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1278:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_27:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;dish_calories\&quot; received from the response within \&quot;category_dishes\&quot; list:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1320 |         exact: false,\n      1321 |       }),\n    &gt; 1322 |     ).toBeInTheDocument()\n           |       ^\n      1323 |\n      1324 |     const secondTab = await screen.findByRole(&#x27;button&#x27;, {\n      1325 |       name: /From the Barnyard/i,\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1322:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_28:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;From the Barnyard\&quot;, then the page should consist of an HTML image element with src as the value of the key \&quot;dish_image\&quot; received from the response within \&quot;category_dishes\&quot; list:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1364 |         exact: false,\n      1365 |       }),\n    &gt; 1366 |     ).toBeInTheDocument()\n           |       ^\n      1367 |\n      1368 |     const secondTab = await screen.findByRole(&#x27;button&#x27;, {\n      1369 |       name: /From the Barnyard/i,\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1366:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_32:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Fresh From The Sea\&quot;, then the page should consist of an HTML heading element with text content as the value of the key \&quot;dish_name\&quot; received from the response within \&quot;category_dishes\&quot; list:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1460 |         exact: false,\n      1461 |       }),\n    &gt; 1462 |     ).toBeInTheDocument()\n           |       ^\n      1463 |\n      1464 |     const fourthTab = await screen.findByRole(&#x27;button&#x27;, {\n      1465 |       name: /Fresh From The Sea/i,\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1462:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_33:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Biryani\&quot;, then the page should consist of an HTML heading element with text content as the value of the key \&quot;dish_name\&quot; received from the response within \&quot;category_dishes\&quot; list:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1505 |         exact: false,\n      1506 |       }),\n    &gt; 1507 |     ).toBeInTheDocument()\n           |       ^\n      1508 |\n      1509 |     const fifthTab = await screen.findByRole(&#x27;button&#x27;, {\n      1510 |       name: /Biryani/i,\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1507:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_35:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Biryani\&quot;, then the page should not consist of an HTML paragraph element with text content as \&quot;Customizations available\&quot; as the key \&quot;addonCat\&quot; has no values received from the response :::5:::\n\n    TypeError: expect(...).not.toBeInTheDocument is not a function\n\n      1569 |\n      1570 |     const textEl = await screen.queryByText(/Customizations available/i)\n    &gt; 1571 |     expect(textEl).not.toBeInTheDocument()\n           |                        ^\n      1572 |     restoreGetCookieFns()\n      1573 |   })\n      1574 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1571:24)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_37:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Fast Food\&quot;, then the page should not consist of an HTML paragraph element with text content as \&quot;Not available\&quot; as all \&quot;dish_Availability\&quot; keys has the value \&quot;true\&quot; received from the response:::5:::\n\n    TypeError: expect(...).not.toBeInTheDocument is not a function\n\n      1599 |\n      1600 |     const textEl = await screen.queryByText(/Not available/i)\n    &gt; 1601 |     expect(textEl).not.toBeInTheDocument()\n           |                        ^\n      1602 |     restoreGetCookieFns()\n      1603 |   })\n      1604 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1601:24)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_40:::When the HTTP GET request is successful and the active \&quot;menu_category\&quot; is \&quot;Salads and Soup\&quot;, and when the \&quot;-\&quot; button in the Page is clicked initially, then the \&quot;dish quantity\&quot; count or \&quot;cart count\&quot; should not be decremented:::5:::\n\n    expect(received).toBe(expected) // Object.is equality\n\n    Expected: 4\n    Received: 1\n\n      1654 |\n      1655 |     const textEls2 = await screen.findAllByText(&#x27;0&#x27;)\n    &gt; 1656 |     expect(textEls2.length).toBe(4)\n           |                             ^\n      1657 |\n      1658 |     const minusButtons = await screen.findAllByRole(&#x27;button&#x27;, {\n      1659 |       name: /^-$/i,\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1656:29)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_2:::Home Route tests › :::RJSCPCTA6A_TEST_44:::When the HTTP GET request is successful, the tabs must not be hardcoded, its length should change as per API:::5:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1760 |         exact: false,\n      1761 |       }),\n    &gt; 1762 |     ).toBeInTheDocument()\n           |       ^\n      1763 |\n      1764 |     for (let index = 0; index &lt; 2; index += 1) {\n      1765 |       expect(\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Home.js:1762:7)\n&quot;
+    },
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 12,
+      &quot;numPassingTests&quot;: 6,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1734702891652,
+        &quot;runtime&quot;: 5415,
+        &quot;slow&quot;: true,
+        &quot;start&quot;: 1734702886237
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0
+      },
+      &quot;testFilePath&quot;: &quot;/tmp/RJSCPD56GK/src/__tests__/Login.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 274,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Login.js:805:25)\n    at Promise.then.completed (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (&lt;anonymous&gt;)\n    at callAsyncCircusFn (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:40)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route TestsWhen \&quot;/login\&quot; is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \&quot;Login\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When \&quot;/login\&quot; is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \&quot;Login\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_46&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 1086,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;name&quot;: &quot;TestingLibraryElementError&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: Unable to find an element with the text: /UNI Resto Cafe/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\n\u001b[36m&lt;body&gt;\u001b[39m\n  \u001b[36m&lt;div&gt;\u001b[39m\n    \u001b[36m&lt;div&gt;\u001b[39m\n      \u001b[36m&lt;h1&gt;\u001b[39m\n        \u001b[0mLogin\u001b[0m\n      \u001b[36m&lt;/h1&gt;\u001b[39m\n      \u001b[36m&lt;form&gt;\u001b[39m\n        \u001b[36m&lt;div&gt;\u001b[39m\n          \u001b[36m&lt;label\u001b[39m\n            \u001b[33mfor\u001b[39m=\u001b[32m\&quot;username\&quot;\u001b[39m\n          \u001b[36m&gt;\u001b[39m\n            \u001b[0mUSERNAME\u001b[0m\n          \u001b[36m&lt;/label&gt;\u001b[39m\n          \u001b[36m&lt;input\u001b[39m\n            \u001b[33mid\u001b[39m=\u001b[32m\&quot;username\&quot;\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\&quot;text\&quot;\u001b[39m\n            \u001b[33mvalue\u001b[39m=\u001b[32m\&quot;\&quot;\u001b[39m\n          \u001b[36m/&gt;\u001b[39m\n        \u001b[36m&lt;/div&gt;\u001b[39m\n        \u001b[36m&lt;div&gt;\u001b[39m\n          \u001b[36m&lt;label\u001b[39m\n            \u001b[33mfor\u001b[39m=\u001b[32m\&quot;password\&quot;\u001b[39m\n          \u001b[36m&gt;\u001b[39m\n            \u001b[0mPASSWORD\u001b[0m\n          \u001b[36m&lt;/label&gt;\u001b[39m\n          \u001b[36m&lt;input\u001b[39m\n            \u001b[33mid\u001b[39m=\u001b[32m\&quot;password\&quot;\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\&quot;password\&quot;\u001b[39m\n            \u001b[33mvalue\u001b[39m=\u001b[32m\&quot;\&quot;\u001b[39m\n          \u001b[36m/&gt;\u001b[39m\n        \u001b[36m&lt;/div&gt;\u001b[39m\n        \u001b[36m&lt;div&gt;\u001b[39m\n          \u001b[36m&lt;button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\&quot;submit\&quot;\u001b[39m\n          \u001b[36m&gt;\u001b[39m\n            \u001b[0mLogin\u001b[0m\n          \u001b[36m&lt;/button&gt;\u001b[39m\n        \u001b[36m&lt;/div&gt;\u001b[39m\n      \u001b[36m&lt;/form&gt;\u001b[39m\n    \u001b[36m&lt;/div&gt;\u001b[39m\n  \u001b[36m&lt;/div&gt;\u001b[39m\n\u001b[36m&lt;/body&gt;\u001b[39m\n    at waitForWrapper (/tmp/RJSCPD56GK/node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/wait-for.js:173:27)\n    at findByText (/tmp/RJSCPD56GK/node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/query-helpers.js:101:33)\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Login.js:812:20)\n    at Promise.then.completed (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (&lt;anonymous&gt;)\n    at callAsyncCircusFn (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:40)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route TestsWhen \&quot;/login\&quot; is provided as the URL path by an authenticated user, then the page should be navigated to the Home Route and consist of an HTML main heading element with text content as \&quot;UNI Resto Cafe\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When \&quot;/login\&quot; is provided as the URL path by an authenticated user, then the page should be navigated to the Home Route and consist of an HTML main heading element with text content as \&quot;UNI Resto Cafe\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_47&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;Error: Unable to find an element with the text: /UNI Resto Cafe/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 7,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Login.js:822:20)\n    at Promise.then.completed (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (&lt;anonymous&gt;)\n    at callAsyncCircusFn (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:40)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route TestsLogin Route should consist of an HTML form element&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Login Route should consist of an HTML form element&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_48&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 7,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Login Route TestsLogin Route should consist of an HTML input element with label text as \&quot;USERNAME\&quot; and type attribute value as \&quot;text\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Login Route should consist of an HTML input element with label text as \&quot;USERNAME\&quot; and type attribute value as \&quot;text\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_49&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 7,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Login Route TestsLogin Route should consist of an HTML input element with label text as \&quot;PASSWORD\&quot; and type attribute value as \&quot;password\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Login Route should consist of an HTML input element with label text as \&quot;PASSWORD\&quot; and type attribute value as \&quot;password\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_50&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 75,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toHaveValue is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Login.js:838:21)\n    at Promise.then.completed (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (&lt;anonymous&gt;)\n    at callAsyncCircusFn (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:40)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route TestsWhen a non-empty value is provided in the HTML input element with the label text as \&quot;USERNAME\&quot;, then the value provided should be displayed in the HTML input element&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a non-empty value is provided in the HTML input element with the label text as \&quot;USERNAME\&quot;, then the value provided should be displayed in the HTML input element&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_51&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toHaveValue is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 31,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toHaveValue is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Login.js:845:21)\n    at Promise.then.completed (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (&lt;anonymous&gt;)\n    at callAsyncCircusFn (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:40)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route TestsWhen a non-empty value is provided in the HTML input element with the label text as \&quot;PASSWORD\&quot;, then the value provided should be displayed in the HTML input element&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a non-empty value is provided in the HTML input element with the label text as \&quot;PASSWORD\&quot;, then the value provided should be displayed in the HTML input element&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_52&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toHaveValue is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 81,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Login.js:851:22)\n    at Promise.then.completed (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (&lt;anonymous&gt;)\n    at callAsyncCircusFn (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:40)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route TestsLogin Route should consist of an HTML button element with text content as \&quot;Login\&quot; and type attribute value as \&quot;submit\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Login Route should consist of an HTML button element with text content as \&quot;Login\&quot; and type attribute value as \&quot;submit\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_53&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 209,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Login Route TestsWhen non-empty values are provided for username and password input and the Login button is clicked, an HTTP POST request should be made to the given Login API URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When non-empty values are provided for username and password input and the Login button is clicked, an HTTP POST request should be made to the given Login API URL&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_54&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 204,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Login Route TestsWhen non-empty values are provided for username and password input and the Login button is clicked, then an HTTP POST request should be made to the given Login API URL with request object containing the keys \&quot;username\&quot; and \&quot;password\&quot; with the values provided respectively&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When non-empty values are provided for username and password input and the Login button is clicked, then an HTTP POST request should be made to the given Login API URL with request object containing the keys \&quot;username\&quot; and \&quot;password\&quot; with the values provided respectively&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_55&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 105,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Login.js:929:25)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route TestsWhen username and password are empty and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When username and password are empty and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_56&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 177,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Login.js:954:25)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Testswhen a non-empty password is provided and the Login button is clicked with an empty username, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;when a non-empty password is provided and the Login button is clicked with an empty username, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_57&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 113,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Login.js:980:25)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Testswhen a non-empty username is provided and the Login button is clicked with an empty password, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;when a non-empty username is provided and the Login button is clicked with an empty password, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_58&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 196,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Login.js:1004:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Testswhen invalid username and password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;when invalid username and password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_59&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 122,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Login.js:1028:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Testswhen an invalid username and valid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as an error message received from the response and the page should not be navigated&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;when an invalid username and valid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as an error message received from the response and the page should not be navigated&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_60&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 159,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Login.js:1052:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Testswhen a valid username and an invalid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;when a valid username and an invalid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_61&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 118,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Login Route TestsWhen valid username and password are provided and the Login button is clicked, then the Cookies.set() method should be called with three arguments - \&quot;jwt_token\&quot; string as the first argument, JWT token value as the second argument, and expiry days as the third argument&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When valid username and password are provided and the Login button is clicked, then the Cookies.set() method should be called with three arguments - \&quot;jwt_token\&quot; string as the first argument, JWT token value as the second argument, and expiry days as the third argument&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_62&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 199,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Login Route TestsWhen valid username and password are provided and the login button is clicked, then the page should be navigated to the Home Route&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When valid username and password are provided and the login button is clicked, then the page should be navigated to the Home Route&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_63&quot;,
+          &quot;errorMessages&quot;: []
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;  ● :::RJSCPCTA6A_TEST_SUITE_3:::Login Route Tests › :::RJSCPCTA6A_TEST_46:::When \&quot;/login\&quot; is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \&quot;Login\&quot;:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      803 |       name: /Login/i,\n      804 |     })\n    &gt; 805 |     expect(loginButton).toBeInTheDocument()\n          |                         ^\n      806 |   })\n      807 |\n      808 |   it(&#x27;:::RJSCPCTA6A_TEST_47:::When \&quot;/login\&quot; is provided as the URL path by an authenticated user, then the page should be navigated to the Home Route and consist of an HTML main heading element with text content as \&quot;UNI Resto Cafe\&quot;:::15:::&#x27;, async () =&gt; {\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Login.js:805:25)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_3:::Login Route Tests › :::RJSCPCTA6A_TEST_47:::When \&quot;/login\&quot; is provided as the URL path by an authenticated user, then the page should be navigated to the Home Route and consist of an HTML main heading element with text content as \&quot;UNI Resto Cafe\&quot;:::15:::\n\n    Unable to find an element with the text: /UNI Resto Cafe/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\n    \u001b[36m&lt;body&gt;\u001b[39m\n      \u001b[36m&lt;div&gt;\u001b[39m\n        \u001b[36m&lt;div&gt;\u001b[39m\n          \u001b[36m&lt;h1&gt;\u001b[39m\n            \u001b[0mLogin\u001b[0m\n          \u001b[36m&lt;/h1&gt;\u001b[39m\n          \u001b[36m&lt;form&gt;\u001b[39m\n            \u001b[36m&lt;div&gt;\u001b[39m\n              \u001b[36m&lt;label\u001b[39m\n                \u001b[33mfor\u001b[39m=\u001b[32m\&quot;username\&quot;\u001b[39m\n              \u001b[36m&gt;\u001b[39m\n                \u001b[0mUSERNAME\u001b[0m\n              \u001b[36m&lt;/label&gt;\u001b[39m\n              \u001b[36m&lt;input\u001b[39m\n                \u001b[33mid\u001b[39m=\u001b[32m\&quot;username\&quot;\u001b[39m\n                \u001b[33mtype\u001b[39m=\u001b[32m\&quot;text\&quot;\u001b[39m\n                \u001b[33mvalue\u001b[39m=\u001b[32m\&quot;\&quot;\u001b[39m\n              \u001b[36m/&gt;\u001b[39m\n            \u001b[36m&lt;/div&gt;\u001b[39m\n            \u001b[36m&lt;div&gt;\u001b[39m\n              \u001b[36m&lt;label\u001b[39m\n                \u001b[33mfor\u001b[39m=\u001b[32m\&quot;password\&quot;\u001b[39m\n              \u001b[36m&gt;\u001b[39m\n                \u001b[0mPASSWORD\u001b[0m\n              \u001b[36m&lt;/label&gt;\u001b[39m\n              \u001b[36m&lt;input\u001b[39m\n                \u001b[33mid\u001b[39m=\u001b[32m\&quot;password\&quot;\u001b[39m\n                \u001b[33mtype\u001b[39m=\u001b[32m\&quot;password\&quot;\u001b[39m\n                \u001b[33mvalue\u001b[39m=\u001b[32m\&quot;\&quot;\u001b[39m\n              \u001b[36m/&gt;\u001b[39m\n            \u001b[36m&lt;/div&gt;\u001b[39m\n            \u001b[36m&lt;div&gt;\u001b[39m\n              \u001b[36m&lt;button\u001b[39m\n                \u001b[33mtype\u001b[39m=\u001b[32m\&quot;submit\&quot;\u001b[39m\n              \u001b[36m&gt;\u001b[39m\n                \u001b[0mLogin\u001b[0m\n              \u001b[36m&lt;/button&gt;\u001b[39m\n            \u001b[36m&lt;/div&gt;\u001b[39m\n          \u001b[36m&lt;/form&gt;\u001b[39m\n        \u001b[36m&lt;/div&gt;\u001b[39m\n      \u001b[36m&lt;/div&gt;\u001b[39m\n    \u001b[36m&lt;/body&gt;\u001b[39m\n\n      810 |     renderWithBrowserRouter(&lt;App /&gt;)\n      811 |     expect(\n    &gt; 812 |       await screen.findByText(/UNI Resto Cafe/i, {\n          |                    ^\n      813 |         exact: false,\n      814 |       }),\n      815 |     ).toBeInTheDocument()\n\n      at waitForWrapper (node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/wait-for.js:173:27)\n      at findByText (node_modules/.pnpm/@testing-library/dom@7.31.2/node_modules/@testing-library/dom/dist/query-helpers.js:101:33)\n      at Object.&lt;anonymous&gt; (src/__tests__/Login.js:812:20)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_3:::Login Route Tests › :::RJSCPCTA6A_TEST_48:::Login Route should consist of an HTML form element:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      820 |     const {container} = renderWithBrowserRouter(&lt;App /&gt;)\n      821 |     const formEl = container.querySelector(&#x27;form&#x27;)\n    &gt; 822 |     expect(formEl).toBeInTheDocument()\n          |                    ^\n      823 |   })\n      824 |\n      825 |   it(&#x27;:::RJSCPCTA6A_TEST_49:::Login Route should consist of an HTML input element with label text as \&quot;USERNAME\&quot; and type attribute value as \&quot;text\&quot;:::15:::&#x27;, () =&gt; {\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Login.js:822:20)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_3:::Login Route Tests › :::RJSCPCTA6A_TEST_51:::When a non-empty value is provided in the HTML input element with the label text as \&quot;USERNAME\&quot;, then the value provided should be displayed in the HTML input element:::15:::\n\n    TypeError: expect(...).toHaveValue is not a function\n\n      836 |     const inputEl = screen.getByLabelText(/USERNAME/i)\n      837 |     userEvent.type(inputEl, &#x27;rahul&#x27;)\n    &gt; 838 |     expect(inputEl).toHaveValue(&#x27;rahul&#x27;)\n          |                     ^\n      839 |   })\n      840 |\n      841 |   it(&#x27;:::RJSCPCTA6A_TEST_52:::When a non-empty value is provided in the HTML input element with the label text as \&quot;PASSWORD\&quot;, then the value provided should be displayed in the HTML input element:::15:::&#x27;, () =&gt; {\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Login.js:838:21)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_3:::Login Route Tests › :::RJSCPCTA6A_TEST_52:::When a non-empty value is provided in the HTML input element with the label text as \&quot;PASSWORD\&quot;, then the value provided should be displayed in the HTML input element:::15:::\n\n    TypeError: expect(...).toHaveValue is not a function\n\n      843 |     const inputEl = screen.getByLabelText(/PASSWORD/i)\n      844 |     userEvent.type(inputEl, &#x27;rahul@2021&#x27;)\n    &gt; 845 |     expect(inputEl).toHaveValue(&#x27;rahul@2021&#x27;)\n          |                     ^\n      846 |   })\n      847 |\n      848 |   it(&#x27;:::RJSCPCTA6A_TEST_53:::Login Route should consist of an HTML button element with text content as \&quot;Login\&quot; and type attribute value as \&quot;submit\&quot;:::15:::&#x27;, () =&gt; {\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Login.js:845:21)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_3:::Login Route Tests › :::RJSCPCTA6A_TEST_53:::Login Route should consist of an HTML button element with text content as \&quot;Login\&quot; and type attribute value as \&quot;submit\&quot;:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      849 |     renderWithBrowserRouter(&lt;App /&gt;)\n      850 |     const buttonEl = screen.getByRole(&#x27;button&#x27;, {name: /Login/i})\n    &gt; 851 |     expect(buttonEl).toBeInTheDocument()\n          |                      ^\n      852 |     expect(buttonEl.type).toBe(&#x27;submit&#x27;)\n      853 |   })\n      854 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Login.js:851:22)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_3:::Login Route Tests › :::RJSCPCTA6A_TEST_56:::When username and password are empty and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      927 |       },\n      928 |     )\n    &gt; 929 |     expect(paragraphEl).toBeInTheDocument()\n          |                         ^\n      930 |     expect(window.location.pathname).toBe(loginRoutePath)\n      931 |   })\n      932 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Login.js:929:25)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_3:::Login Route Tests › :::RJSCPCTA6A_TEST_57:::when a non-empty password is provided and the Login button is clicked with an empty username, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      952 |       },\n      953 |     )\n    &gt; 954 |     expect(paragraphEl).toBeInTheDocument()\n          |                         ^\n      955 |     expect(window.location.pathname).toBe(loginRoutePath)\n      956 |   })\n      957 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Login.js:954:25)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_3:::Login Route Tests › :::RJSCPCTA6A_TEST_58:::when a non-empty username is provided and the Login button is clicked with an empty password, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      978 |       },\n      979 |     )\n    &gt; 980 |     expect(paragraphEl).toBeInTheDocument()\n          |                         ^\n      981 |     expect(window.location.pathname).toBe(loginRoutePath)\n      982 |   })\n      983 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Login.js:980:25)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_3:::Login Route Tests › :::RJSCPCTA6A_TEST_59:::when invalid username and password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1002 |         exact: false,\n      1003 |       }),\n    &gt; 1004 |     ).toBeInTheDocument()\n           |       ^\n      1005 |     expect(window.location.pathname).toBe(loginRoutePath)\n      1006 |   })\n      1007 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Login.js:1004:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_3:::Login Route Tests › :::RJSCPCTA6A_TEST_60:::when an invalid username and valid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as an error message received from the response and the page should not be navigated:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1026 |         exact: false,\n      1027 |       }),\n    &gt; 1028 |     ).toBeInTheDocument()\n           |       ^\n      1029 |     expect(window.location.pathname).toBe(loginRoutePath)\n      1030 |   })\n      1031 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Login.js:1028:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_3:::Login Route Tests › :::RJSCPCTA6A_TEST_61:::when a valid username and an invalid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1050 |         exact: false,\n      1051 |       }),\n    &gt; 1052 |     ).toBeInTheDocument()\n           |       ^\n      1053 |     expect(window.location.pathname).toBe(loginRoutePath)\n      1054 |   })\n      1055 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Login.js:1052:7)\n&quot;
+    },
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 8,
+      &quot;numPassingTests&quot;: 3,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1734702901796,
+        &quot;runtime&quot;: 10124,
+        &quot;slow&quot;: true,
+        &quot;start&quot;: 1734702891672
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0
+      },
+      &quot;testFilePath&quot;: &quot;/tmp/RJSCPD56GK/src/__tests__/Cart.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Cart Route tests&quot;
+          ],
+          &quot;duration&quot;: 91,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Cart Route testsWhen the cart is empty, the CartRoute should consist of an HTML image element with src attribute value as URL for cart empty image&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the cart is empty, the CartRoute should consist of an HTML image element with src attribute value as URL for cart empty image&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_1&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Cart Route tests&quot;
+          ],
+          &quot;duration&quot;: 1113,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Cart.js:792:42)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Cart Route testsWhen the dishes are added to the cart, the count of the cart items should be displayed in the header after the cart icon button &quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the dishes are added to the cart, the count of the cart items should be displayed in the header after the cart icon button &quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_2&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Cart Route tests&quot;
+          ],
+          &quot;duration&quot;: 998,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Cart.js:819:42)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Cart Route testsWhen a dish is added to the cart, the CartRoute should consist of an HTML button element with text content as \&quot;Remove All\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a dish is added to the cart, the CartRoute should consist of an HTML button element with text content as \&quot;Remove All\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_3&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Cart Route tests&quot;
+          ],
+          &quot;duration&quot;: 910,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Cart Route testsWhen a dish is added to the cart, the page should consist of an HTML image element with src value as \&quot;dishImage\&quot; for dish added&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When a dish is added to the cart, the page should consist of an HTML image element with src value as \&quot;dishImage\&quot; for dish added&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_4&quot;,
+          &quot;errorMessages&quot;: []
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Cart Route tests&quot;
+          ],
+          &quot;duration&quot;: 772,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Cart.js:888:7)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Cart Route testsWhen a dish is added to the cart, the page should consist of an HTML element with text content as \&quot;dishName\&quot; of the dish added&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a dish is added to the cart, the page should consist of an HTML element with text content as \&quot;dishName\&quot; of the dish added&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_5&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Cart Route tests&quot;
+          ],
+          &quot;duration&quot;: 1113,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Cart.js:920:24)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Cart Route testsWhen a dish is added to the cart, the page should consist of an HTML button element with text content as \&quot;+\&quot; should be displayed&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a dish is added to the cart, the page should consist of an HTML button element with text content as \&quot;+\&quot; should be displayed&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_6&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Cart Route tests&quot;
+          ],
+          &quot;duration&quot;: 711,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Cart.js:951:28)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Cart Route testsWhen a dish is added to the cart, the page should consist of an HTML button element with text content as \&quot;-\&quot; should be displayed&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a dish is added to the cart, the page should consist of an HTML button element with text content as \&quot;-\&quot; should be displayed&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_7&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Cart Route tests&quot;
+          ],
+          &quot;duration&quot;: 673,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Cart.js:984:24)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Cart Route testsWhen the HTML button element with text content as \&quot;+\&quot; is clicked, then the \&quot;incrementCartItemQuantity\&quot; function in \&quot;CartContext\&quot; should be called&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTML button element with text content as \&quot;+\&quot; is clicked, then the \&quot;incrementCartItemQuantity\&quot; function in \&quot;CartContext\&quot; should be called&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_8&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Cart Route tests&quot;
+          ],
+          &quot;duration&quot;: 631,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Cart.js:1022:29)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Cart Route testsWhen the HTML button element with text content as \&quot;-\&quot; is clicked, then the \&quot;decrementCartItemQuantity\&quot; function in \&quot;CartContext\&quot; should be called&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTML button element with text content as \&quot;-\&quot; is clicked, then the \&quot;decrementCartItemQuantity\&quot; function in \&quot;CartContext\&quot; should be called&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_9&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Cart Route tests&quot;
+          ],
+          &quot;duration&quot;: 706,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function\n    at Object.&lt;anonymous&gt; (/tmp/RJSCPD56GK/src/__tests__/Cart.js:1059:41)\n    at _callCircusTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:5)\n    at _runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/tmp/RJSCPD56GK/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Cart Route testsWhen multiple dishes are added to the cart, the count of the cart items should be updated in the header after the cart link&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When multiple dishes are added to the cart, the count of the cart items should be updated in the header after the cart link&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_10&quot;,
+          &quot;errorMessages&quot;: [
+            &quot;TypeError: expect(...).toBeInTheDocument is not a function&quot;
+          ]
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Cart Route tests&quot;
+          ],
+          &quot;duration&quot;: 684,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Cart Route testsWhen the \&quot;Remove All\&quot; button is clicked, then the \&quot;removeAllCartItems\&quot; function in \&quot;CartContext\&quot; should be called&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When the \&quot;Remove All\&quot; button is clicked, then the \&quot;removeAllCartItems\&quot; function in \&quot;CartContext\&quot; should be called&quot;,
+          &quot;id&quot;: &quot;RJSCPCTA6A_TEST_11&quot;,
+          &quot;errorMessages&quot;: []
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;  ● :::RJSCPCTA6A_TEST_SUITE_1:::Cart Route tests › :::RJSCPCTA6A_TEST_2:::When the dishes are added to the cart, the count of the cart items should be displayed in the header after the cart icon button :::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      790 |     expect(window.location.pathname).toBe(cartRoutePath)\n      791 |\n    &gt; 792 |     expect(screen.getAllByText(/1/i)[0]).toBeInTheDocument()\n          |                                          ^\n      793 |     restoreGetCookieFns()\n      794 |   })\n      795 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Cart.js:792:42)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_1:::Cart Route tests › :::RJSCPCTA6A_TEST_3:::When a dish is added to the cart, the CartRoute should consist of an HTML button element with text content as \&quot;Remove All\&quot;:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      817 |     expect(window.location.pathname).toBe(cartRoutePath)\n      818 |\n    &gt; 819 |     expect(screen.getAllByText(/1/i)[0]).toBeInTheDocument()\n          |                                          ^\n      820 |\n      821 |     expect(\n      822 |       await screen.getByRole(&#x27;button&#x27;, {\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Cart.js:819:42)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_1:::Cart Route tests › :::RJSCPCTA6A_TEST_5:::When a dish is added to the cart, the page should consist of an HTML element with text content as \&quot;dishName\&quot; of the dish added:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      886 |     expect(\n      887 |       screen.getByText(&#x27;Spinach Salad&#x27;, {exact: false}),\n    &gt; 888 |     ).toBeInTheDocument()\n          |       ^\n      889 |\n      890 |     restoreGetCookieFns()\n      891 |   })\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Cart.js:888:7)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_1:::Cart Route tests › :::RJSCPCTA6A_TEST_6:::When a dish is added to the cart, the page should consist of an HTML button element with text content as \&quot;+\&quot; should be displayed:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      918 |       exact: true,\n      919 |     })\n    &gt; 920 |     expect(plusButton).toBeInTheDocument()\n          |                        ^\n      921 |     restoreGetCookieFns()\n      922 |   })\n      923 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Cart.js:920:24)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_1:::Cart Route tests › :::RJSCPCTA6A_TEST_7:::When a dish is added to the cart, the page should consist of an HTML button element with text content as \&quot;-\&quot; should be displayed:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      949 |       exact: true,\n      950 |     })\n    &gt; 951 |     expect(minusButton[0]).toBeInTheDocument()\n          |                            ^\n      952 |     restoreGetCookieFns()\n      953 |   })\n      954 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Cart.js:951:28)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_1:::Cart Route tests › :::RJSCPCTA6A_TEST_8:::When the HTML button element with text content as \&quot;+\&quot; is clicked, then the \&quot;incrementCartItemQuantity\&quot; function in \&quot;CartContext\&quot; should be called:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      982 |       exact: true,\n      983 |     })\n    &gt; 984 |     expect(plusButton).toBeInTheDocument()\n          |                        ^\n      985 |\n      986 |     userEvent.click(screen.getByText(&#x27;+&#x27;))\n      987 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Cart.js:984:24)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_1:::Cart Route tests › :::RJSCPCTA6A_TEST_9:::When the HTML button element with text content as \&quot;-\&quot; is clicked, then the \&quot;decrementCartItemQuantity\&quot; function in \&quot;CartContext\&quot; should be called:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1020 |     })\n      1021 |\n    &gt; 1022 |     expect(minusButtons[0]).toBeInTheDocument()\n           |                             ^\n      1023 |\n      1024 |     userEvent.click(screen.getByText(&#x27;-&#x27;))\n      1025 |\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Cart.js:1022:29)\n\n  ● :::RJSCPCTA6A_TEST_SUITE_1:::Cart Route tests › :::RJSCPCTA6A_TEST_10:::When multiple dishes are added to the cart, the count of the cart items should be updated in the header after the cart link:::15:::\n\n    TypeError: expect(...).toBeInTheDocument is not a function\n\n      1057 |     expect(window.location.pathname).toBe(cartRoutePath)\n      1058 |\n    &gt; 1059 |     expect(screen.getAllByText(/3/)[0]).toBeInTheDocument()\n           |                                         ^\n      1060 |\n      1061 |     restoreGetCookieFns()\n      1062 |   })\n\n      at Object.&lt;anonymous&gt; (src/__tests__/Cart.js:1059:41)\n&quot;
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>
